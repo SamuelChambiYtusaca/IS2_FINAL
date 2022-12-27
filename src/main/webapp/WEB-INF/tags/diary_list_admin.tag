@@ -1,5 +1,5 @@
-<%@tag import="java.util.List"%>
 <%@tag import="com.yusufsezer.model.Diary"%>
+<%@tag import="java.util.List"%>
 <%@tag description="diaryListAdmin" pageEncoding="UTF-8"%>
 
 <% List<Diary> diaryList = (List) request.getAttribute("diaryList"); %>

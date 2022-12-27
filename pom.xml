@@ -8,7 +8,8 @@
     <packaging>war</packaging>
 
     <name>java-jsp-diary</name>
-	<settings>
+<!--  
+<settings>
     <pluginGroups>
         <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
     </pluginGroups>
@@ -19,7 +20,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
                   http://myserver:9000
                 </sonar.host.url>
@@ -27,6 +27,7 @@
         </profile>
      </profiles>
 </settings>
+-->
     <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
@@ -46,6 +47,12 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.18</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.7.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 	

@@ -1,5 +1,5 @@
-<%@tag description="layout" pageEncoding="UTF-8"%>
 <%@taglib tagdir="/WEB-INF/tags/" prefix="t" %>
+<%@tag description="layout" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
